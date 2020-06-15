@@ -1,0 +1,90 @@
+body{
+    background-color: #232323;
+    font-family: "Montserrat", "Avenir";
+}
+
+h1{
+    color: white;
+    background-color: steelblue;
+    margin: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    line-height: 1.1;
+    padding: 20px 0;
+    transition: background 500ms;
+    -webkit-transition: background 500ms;
+    -moz-transition: background 500ms;
+}
+
+#showPickedColor{
+    font-size: 200%;
+}
+
+button{
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    font-family: "Montserrat", "Avenir";
+    height: 100%;
+    font-weight: 700;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 500ms;
+    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    outline: none;
+}
+
+
+#message{
+    display: inline-block;
+    width: 20%;
+}
+.selected{
+    background-color: steelblue;
+    color: white;
+}
+
+
+#stripe{
+    width: 100%;
+    background-color: white;
+    height: 30px;
+    text-align: center;
+    
+}
+
+
+#container{
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.square{
+    width: 30%;
+    padding-bottom: 30%;
+    background-color: blue;
+    float: left;
+    margin: 1.66%;
+    border-radius: 20%;
+    transition: background 500ms;
+    -webkit-transition: background 500ms;
+    -moz-transition: background 500ms;
+
+
+}
+
+button:hover{
+    color: white;
+    background-color: steelblue;
+    outline: none;
+}
+
+button:focus{
+    outline: none;
+}
+<<<<<<< HEAD
+
+=======
+>>>>>>> c8a487258240e868f7e00d342889e433bc02eed7
