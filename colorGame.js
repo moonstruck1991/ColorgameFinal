@@ -62,6 +62,7 @@ easyButton.addEventListener("click",function(){
     reset1();
     for(var i = numberOfColors; i < squares.length;i++){
         squares[i].style.backgroundColor = "#232323";
+        squares[i].removeEventListener("click",reset1)
     }
     easyButton.classList.add("selected")
     hardButton.classList.remove("selected")

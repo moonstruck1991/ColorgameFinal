@@ -84,7 +84,12 @@ button:hover{
 button:focus{
     outline: none;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> c8a487258240e868f7e00d342889e433bc02eed7
+@media(max-width: 575px){
+    h1{
+        font-size: 20px;
+    }
+
+
+
+}
